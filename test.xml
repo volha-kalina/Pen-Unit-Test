@@ -4,7 +4,15 @@
         <classes>
             <class name="org.lab.PenTest">
                 <methods>
-                    <include name="testEmptyStringReturned"/>
+                    <include name="testEmptyStringReturnedIfInkLessZero"/>
+                    <include name="testEmptyStringReturnedIfInkZero"/>
+                    <include name="testWordReturnedIfWordSizeEqualInkContainer"/>
+                    <include name="testWordReturnedIfWordSizeLessInkContainer"/>
+                    <include name="testPartOfWordReturnedIfWordSizeMoreInkContainer"/>
+                    <include name="testSizeLetterParamZero"/>
+                    <include name="testWordParamEmptyString"/>
+                    <include name="testGetColorMethod"/>
+                    <include name="testWriteMethodWithNoSizeParamSent"/>
                 </methods>
             </class>
         </classes>
