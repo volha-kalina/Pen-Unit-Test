@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Suite" verbose="1" >
-    <test name="Test With Classes">
+<suite name="Suite-Pen" verbose="1" >
+    <test name="Test Pen">
         <classes>
             <class name="org.lab.PenTest">
                 <methods>
@@ -12,7 +12,9 @@
                     <include name="testSizeLetterParamZero"/>
                     <include name="testWordParamEmptyString"/>
                     <include name="testGetColorMethod"/>
-                    <include name="testWriteMethodWithNoSizeParamSent"/>
+                    <include name="testWordParamNull"/>
+                    <include name="testIsWorkMethodSeparatelyForFalse"/>
+                    <include name="testIsWorkMethodSeparatelyForTrue"/>
                 </methods>
             </class>
         </classes>
